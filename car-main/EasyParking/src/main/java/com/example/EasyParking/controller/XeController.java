@@ -10,7 +10,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/xe")
+@RequestMapping("/location/xe")
 @RequiredArgsConstructor
 public class XeController {
 

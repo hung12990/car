@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/the-gui-xe")
+@RequestMapping("/location/the-gui-xe")
 @RequiredArgsConstructor
 public class TheGuiXeController {
 

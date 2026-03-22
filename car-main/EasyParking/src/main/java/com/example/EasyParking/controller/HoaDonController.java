@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/hoa-don")
+@RequestMapping("/location/hoa-don")
 @RequiredArgsConstructor
 public class HoaDonController {
 

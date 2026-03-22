@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/loai-xe")
+@RequestMapping("/location/loai-xe")
 @RequiredArgsConstructor
 public class LoaiXeController {
 

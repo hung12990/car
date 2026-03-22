@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/lich-su")
+@RequestMapping("/location/lich-su")
 @RequiredArgsConstructor
 public class LichSuSuDungTheController {
 
