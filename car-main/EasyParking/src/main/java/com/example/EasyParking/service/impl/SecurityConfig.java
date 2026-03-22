@@ -38,7 +38,7 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/auth/login").permitAll()
                 .requestMatchers("/admin/**").hasRole("SYSTEM_ADMIN")
-                .requestMatchers("/location/**").hasRole("LOCATION_ADMIN")
+                .requestMatchers("/location/**").hasAnyRole("SYSTEM_ADMIN", "LOCATION_ADMIN")
                 .anyRequest().authenticated()
             )
             .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
